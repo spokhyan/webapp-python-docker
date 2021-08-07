@@ -10,6 +10,10 @@ pip install flask
 
 cat > /opt/app.py
 
+cd /opt
+
+FLASK_APP=app.py flask run --host=0.0.0.0
+
 
 
 
